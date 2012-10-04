@@ -1,0 +1,496 @@
+*** Net_UserAgent_Mobile/Net_UserAgent_Mobile-1.0.0/Net/UserAgent/Mobile/DoCoMo/ScreenInfo.php	Thu Jun 03 01:41:36 2009
+--- Net_UserAgent_Mobile/Net_UserAgent_Mobile-1.0.0/Net/UserAgent/Mobile/DoCoMo/ScreenInfo.php	Tue Oct 02 20:04:42 2012
+***************
+*** 2062,2068 ****
+                                           'height' => 592,
+                                           'depth'  => 16777216,
+                                           'color'  => 1
+!                                          )
+                         );
+  
+      /**#@-*/
+--- 2062,2545 ----
+                                           'height' => 592,
+                                           'depth'  => 16777216,
+                                           'color'  => 1
+!                                          ),
+! 
+!                     // Specific extensions
+!                     // IKEDA Youhei <ikeda@midc.jp>
+! 
+!                    // Second half of fiscal 2009
+!                    'F02B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'F03B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'L01B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 800,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'L02B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 800,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'F01B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 960,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'F04B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 960,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'L03B' => array(
+!                                     'width'  => 240,
+!                                     'height' => 400,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'N02B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'N03B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'P02B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'N01B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'P01B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH01B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 16777216,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH04B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 16777216,
+!                                     'color'  => 1
+!                                     ),
+!                    'P03B' => array(
+!                                     'width'  => 240,
+!                                     'height' => 427,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH02B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 16777216,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH03B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 16777216,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH05B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 16777216,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH06B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 16777216,
+!                                     'color'  => 1
+!                                     ),
+!                    // First half of fiscal 2010
+!                    'F08B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ), 
+!                    'F06B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 960,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'F09B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 800,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'F10B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'F07B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'L04B' => array(
+!                                     'width'  => 240,
+!                                     'height' => 320,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'N04B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'N06B' => array(
+!                                     'width'  => 240,
+!                                     'height' => 427,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'N07B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'N05B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'N08B' => array(
+!                                     'width'  => 480, // 854 really width
+!                                     'height' => 854, // 480 really height
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'P04B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'P05B' => array(
+!                                     'width'  => 240,
+!                                     'height' => 427,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'P06B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'P07B' => array(
+!                                     'width'  => 240,
+!                                     'height' => 427,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH07B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH08B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 16777216,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH09B' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 16777216,
+!                                     'color'  => 1
+!                                     ),
+!                    // Second half of fiscal 2010
+!                    'L01C' => array(
+!                                     'width'  => 240,
+!                                     'height' => 400,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'F01C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ), 
+!                    'F02C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'F05C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'F03C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'F04C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'L03C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 800,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'N02C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'P01C' => array(
+!                                     'width'  => 240,
+!                                     'height' => 427,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'N03C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'P02C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'N01C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'P03C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH01C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH02C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH04C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH05C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH06C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH08C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH09C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    // First half of fiscal 2011
+!                    'F09C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'F10C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'CA01C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'F11C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'F07C' => array(
+!                                     'width'  => 600,
+!                                     'height' => 1024,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'F08C' => array(
+!                                     'width'  => 240,
+!                                     'height' => 400,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'P04C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'L10C' => array(
+!                                     'width'  => 240,
+!                                     'height' => 400,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH10C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 16777216,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH11C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 16777216,
+!                                     'color'  => 1
+!                                     ),
+!                    'N05C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'P05C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'P06C' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    // Second half of fiscal 2011
+!                    'N02D' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ), 
+!                    'F06D' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ), 
+!                    'N03D' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'P03D' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 262144,
+!                                     'color'  => 1
+!                                     ),
+!                    'F02D' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'F04D' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH03D' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+!                    'SH05D' => array(
+!                                     'width'  => 480,
+!                                     'height' => 854,
+!                                     'depth'  => 65536,
+!                                     'color'  => 1
+!                                     ),
+                         );
+  
+      /**#@-*/

@@ -1,0 +1,3 @@
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; ja-jp) AppleWebKit/533.18.1 (KHTML, like Gecko) Version/5.0.2 Safari/533.18.5
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; ja-jp) AppleWebKit/531.22.7 (KHTML, like Gecko) Version/4.0.5 Safari/531.22.7
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; ja-jp) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/3.2.1 Safari/525.27.1

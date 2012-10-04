@@ -1,0 +1,4 @@
+DoCoMo/1.0/D501i
+DoCoMo/1.0/F501i
+DoCoMo/1.0/N501i
+DoCoMo/1.0/P501i
